@@ -21,7 +21,7 @@ pipeline {
                 sh 'mvn compile'
             }
         }
-        stage('depoy') {
+        stage('deploy') {
             steps {
                 sh 'mvn deploy'
             }
